@@ -3,8 +3,9 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     extend: {
-      colors: {
+      color: {
         'primary': '#ee0181',
+        'anuj': '#01ee91'
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],
