@@ -2,17 +2,17 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {
-        colors: {
-          'primary': '#ee0181',
-        },
-        fontFamily: {
-          'display': ['Poppins', 'sans-serif'],
-          'body': ['Inter', 'sans-serif']
-        }
-      
-  
-    },
+    extend: {    
+      colors: {
+        'primary': '#3238f2',
+      },
+      fontFamily: {
+        'display': ['Poppins', 'sans-serif'],
+        'body': ['Inter', 'sans-serif']
+      }
+    
+
+},
   },
   plugins: [],
 }
