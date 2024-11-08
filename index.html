@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css">    <title>Document</title>
 </head>
 <body>
-    
+
+
+
+
 
 
 
@@ -18,7 +21,7 @@
                 <img class="object-cover max-w-12 max-h-12" src="https://www.todesktop.com/cdn-cgi/image/f=auto,fit=cover/_app/immutable/assets/todesktop-logo.bn2Qe8sb.png" alt="Logo">
                 <span class="text-lg font-medium font-display">ToDetskop</span>
             </a>
-            <div id="nav-menu" class="hidden md:flex gap-12">
+            <div id="nav-menu" class="hidden lg:flex gap-12">
                 <a href="#" class="font-medium hover:text-primary">Pricing</a>
                 <a href="#" class="font-medium hover:text-primary">Docs</a>
                 <a href="#" class="font-medium hover:text-primary">Changelog</a>
@@ -35,16 +38,30 @@
                 <i class="fa-solid fa-bars text-gray-600"></i>
             </button>
 
-            <div class="fixed bg-red-400 inset-0">
+            <div id="nav-dialog" class="hidden fixed z-10 md:hidden bg-white inset-0">
                 <div id="nav-bar" class="flex justify-between ">
                     <a href="#" id="brand" class="flex gap-2 items-center">
                         <img class="object-cover max-w-12 max-h-12" src="https://www.todesktop.com/cdn-cgi/image/f=auto,fit=cover/_app/immutable/assets/todesktop-logo.bn2Qe8sb.png" alt="Logo">
                         <span class="text-lg font-medium font-display">ToDetskop</span>
                     </a>
-                    <button class="p-2 lg:hidden" onclick="handleMenu()">
-                        <i class="fa-solid fa-bars text-gray-600"></i>
+                    <button class="p-2 md:hidden" onclick="handleMenu()">
+                        <i class="fa-solid fa-xmark text-gray-600"></i>
                     </button>
                 </div>
+                <div class="mt-6">
+                    <a href="#" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg">Pricing</a>
+                    <a href="#" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg">Docs</a>
+                    <a href="#" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg">Changelog</a>
+                    <a href="#" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg">Blogs</a>
+                    <a href="#" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg">Login</a>
+                </div>
+                <div class="h-[1px] bg-gray-300"></div>
+                <button class="mt-6 w-full flex gap-2 items-center px-6 py-4 rounded-lg hover:bg-gray-50">
+                    <img class="max-w-12" src="https://fontawesomeicons.com/lib/svg/logo-electron.svg" alt="">
+                    <span>Electron Developers</span>
+                </button>
+
+
             </div>
 
 
@@ -53,6 +70,10 @@
     
     
 
+
+    
+    
 </body>
 <script src="script.js"></script>
+
 </html>

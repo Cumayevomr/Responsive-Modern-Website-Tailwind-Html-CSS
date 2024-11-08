@@ -3,14 +3,15 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     extend: {
-      color: {
-        'primary': '#ee0181',
-        'anuj': '#01ee91'
-      },
-      fontFamily: {
-        'display': ['Poppins', 'sans-serif'],
-        'body': ['Inter', 'sans-serif']
-      }
+        colors: {
+          'primary': '#ee0181',
+        },
+        fontFamily: {
+          'display': ['Poppins', 'sans-serif'],
+          'body': ['Inter', 'sans-serif']
+        }
+      
+  
     },
   },
   plugins: [],
